@@ -2,10 +2,10 @@ const swaggerAutogen = require("swagger-autogen")();
 
 const doc = {
   info: {
-    title: "Recipe Book API",
-    description: "Description",
+    title: "Retrieving user’s data",
+    description: "The api will write to and. Read from a database of users and their hobbies.",
   },
-  host: "localhost:8000",
+  host: "localhost:8080",
   schemes: ["http", "https"],
 };
 
