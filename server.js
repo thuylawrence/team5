@@ -13,7 +13,7 @@ connectDB();
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
-app.use('/', require('./routes'));
+app.use('/', require('./routes/index'));
 
 app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
