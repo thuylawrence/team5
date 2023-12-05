@@ -1,4 +1,4 @@
-import Hobbies from "../models/hobbiesModel"
+const Hobbies = require ("../models/hobbiesModel")
 
 const getAll = async (req, res) => {
     try {
@@ -72,7 +72,7 @@ const getAll = async (req, res) => {
     }
   }
   
-  export {
+  module.exports = {
     getAll,
     getSingle,
     createHobby,
