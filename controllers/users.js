@@ -35,7 +35,7 @@ const getAll = async (req, res) => {
         password,
         phone_number
       });
-      const createUser = await User.save();
+      const createUser = await user.save();
 
       res.status(201).json(createUser);
     } catch (err) {
