@@ -12,18 +12,11 @@
     "https"
   ],
   "paths": {
-    "/api-docs/api-docs": {
-      "get": {
-        "description": "",
-        "responses": {
-          "default": {
-            "description": ""
-          }
-        }
-      }
-    },
     "/users/": {
       "get": {
+        "tags": [
+          "Users"
+        ],
         "description": "",
         "responses": {
           "200": {
@@ -35,6 +28,9 @@
         }
       },
       "post": {
+        "tags": [
+          "Users"
+        ],
         "description": "",
         "parameters": [
           {
@@ -77,6 +73,9 @@
     },
     "/users/{id}": {
       "get": {
+        "tags": [
+          "Users"
+        ],
         "description": "",
         "parameters": [
           {
@@ -99,6 +98,9 @@
         }
       },
       "delete": {
+        "tags": [
+          "Users"
+        ],
         "description": "",
         "parameters": [
           {
@@ -123,6 +125,9 @@
     },
     "/users/;id": {
       "put": {
+        "tags": [
+          "Users"
+        ],
         "description": "",
         "parameters": [
           {
@@ -168,6 +173,9 @@
     },
     "/hobbies/": {
       "get": {
+        "tags": [
+          "Hobbies"
+        ],
         "description": "",
         "responses": {
           "200": {
@@ -179,6 +187,9 @@
         }
       },
       "post": {
+        "tags": [
+          "Hobbies"
+        ],
         "description": "",
         "parameters": [
           {
@@ -206,6 +217,9 @@
     },
     "/hobbies/{*id}": {
       "get": {
+        "tags": [
+          "Hobbies"
+        ],
         "description": "",
         "parameters": [
           {
@@ -230,6 +244,9 @@
     },
     "/hobbies/;id": {
       "put": {
+        "tags": [
+          "Hobbies"
+        ],
         "description": "",
         "parameters": [
           {
@@ -260,6 +277,9 @@
     },
     "/hobbies/{id}": {
       "delete": {
+        "tags": [
+          "Hobbies"
+        ],
         "description": "",
         "parameters": [
           {
@@ -284,6 +304,9 @@
     },
     "/favorites/": {
       "get": {
+        "tags": [
+          "Favorites"
+        ],
         "description": "",
         "responses": {
           "200": {
@@ -295,6 +318,9 @@
         }
       },
       "post": {
+        "tags": [
+          "Favorites"
+        ],
         "description": "",
         "parameters": [
           {
@@ -328,6 +354,9 @@
     },
     "/favorites/{*id}": {
       "get": {
+        "tags": [
+          "Favorites"
+        ],
         "description": "",
         "parameters": [
           {
@@ -352,6 +381,9 @@
     },
     "/favorites/;id": {
       "put": {
+        "tags": [
+          "Favorites"
+        ],
         "description": "",
         "parameters": [
           {
@@ -388,6 +420,152 @@
     },
     "/favorites/{id}": {
       "delete": {
+        "tags": [
+          "Favorites"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/skillset/": {
+      "get": {
+        "tags": [
+          "Skills"
+        ],
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Skills"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "example": "any"
+                },
+                "technical_skill": {
+                  "example": "any"
+                },
+                "other_skill": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/skillset/{*id}": {
+      "get": {
+        "tags": [
+          "Skills"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name": "*id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/skillset/;id": {
+      "put": {
+        "tags": [
+          "Skills"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "example": "any"
+                },
+                "technical_skill": {
+                  "example": "any"
+                },
+                "other_skill": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/skillset/{id}": {
+      "delete": {
+        "tags": [
+          "Skills"
+        ],
         "description": "",
         "parameters": [
           {
