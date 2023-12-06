@@ -1,11 +1,11 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "Recipe Book API",
-    "description": "Description",
+    "title": "Users Info API",
+    "description": "This api gets users info",
     "version": "1.0.0"
   },
-  "host": "localhost:8000",
+  "host": "localhost:8080",
   "basePath": "/",
   "schemes": [
     "http",
@@ -75,12 +75,12 @@
         }
       }
     },
-    "/users/{*id}": {
+    "/users/{id}": {
       "get": {
         "description": "",
         "parameters": [
           {
-            "name": "*id",
+            "name": "id",
             "in": "path",
             "required": true,
             "type": "string"
@@ -89,6 +89,28 @@
         "responses": {
           "200": {
             "description": "OK"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      },
+      "delete": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
           },
           "404": {
             "description": "Not Found"
@@ -144,31 +166,7 @@
         }
       }
     },
-    "/users/{id}": {
-      "delete": {
-        "description": "",
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "type": "string"
-          }
-        ],
-        "responses": {
-          "201": {
-            "description": "Created"
-          },
-          "404": {
-            "description": "Not Found"
-          },
-          "500": {
-            "description": "Internal Server Error"
-          }
-        }
-      }
-    },
-    "/habbies/": {
+    "/hobbies/": {
       "get": {
         "description": "",
         "responses": {
@@ -206,7 +204,7 @@
         }
       }
     },
-    "/habbies/{*id}": {
+    "/hobbies/{*id}": {
       "get": {
         "description": "",
         "parameters": [
@@ -230,7 +228,7 @@
         }
       }
     },
-    "/habbies/;id": {
+    "/hobbies/;id": {
       "put": {
         "description": "",
         "parameters": [
@@ -260,7 +258,7 @@
         }
       }
     },
-    "/habbies/{id}": {
+    "/hobbies/{id}": {
       "delete": {
         "description": "",
         "parameters": [
