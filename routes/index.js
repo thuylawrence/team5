@@ -7,7 +7,7 @@ const favorites = require('./favorites');
 
 router.use('/api-docs', swagger);
 router.use('/users', users);
-router.use('/habbies', hobbies);
+router.use('/hobbies', hobbies);
 router.use('/favorites', favorites);
 
 module.exports = router;
