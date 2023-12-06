@@ -1,4 +1,4 @@
-const {mongoose} = require("mongoose");
+const mongoose = require("mongoose");
 
 const hobbiesSchema = new mongoose.Schema({
     hobby: {
@@ -7,6 +7,6 @@ const hobbiesSchema = new mongoose.Schema({
     },
 });
 
-const Hobbies = mongoose.model("User", hobbiesSchema);
+const Hobbies = mongoose.model("Hobbies", hobbiesSchema);
 
 module.exports = Hobbies;

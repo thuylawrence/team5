@@ -1,4 +1,4 @@
-import Favorite from "../models/favoriteModel";
+const Favorite = require ("../models/favoriteModel");
 
 const getAll = async (req, res) => {
     try {
@@ -76,7 +76,7 @@ const getAll = async (req, res) => {
     }
   }
   
-  export {
+  module.exports = {
     getAll,
     getSingle,
     createFavorite,

@@ -1,29 +1,22 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "Recipe Book API",
-    "description": "Description",
+    "title": "Users Info API",
+    "description": "This api gets users info",
     "version": "1.0.0"
   },
-  "host": "localhost:8000",
+  "host": "localhost:8080",
   "basePath": "/",
   "schemes": [
     "http",
     "https"
   ],
   "paths": {
-    "/api-docs/api-docs": {
-      "get": {
-        "description": "",
-        "responses": {
-          "default": {
-            "description": ""
-          }
-        }
-      }
-    },
     "/users/": {
       "get": {
+        "tags": [
+          "Users"
+        ],
         "description": "",
         "responses": {
           "200": {
@@ -35,6 +28,9 @@
         }
       },
       "post": {
+        "tags": [
+          "Users"
+        ],
         "description": "",
         "parameters": [
           {
@@ -75,12 +71,15 @@
         }
       }
     },
-    "/users/{*id}": {
+    "/users/{id}": {
       "get": {
+        "tags": [
+          "Users"
+        ],
         "description": "",
         "parameters": [
           {
-            "name": "*id",
+            "name": "id",
             "in": "path",
             "required": true,
             "type": "string"
@@ -97,55 +96,11 @@
             "description": "Internal Server Error"
           }
         }
-      }
-    },
-    "/users/;id": {
-      "put": {
-        "description": "",
-        "parameters": [
-          {
-            "name": "body",
-            "in": "body",
-            "schema": {
-              "type": "object",
-              "properties": {
-                "date_of_birth": {
-                  "example": "any"
-                },
-                "email": {
-                  "example": "any"
-                },
-                "first_name": {
-                  "example": "any"
-                },
-                "last_name": {
-                  "example": "any"
-                },
-                "password": {
-                  "example": "any"
-                },
-                "phone_number": {
-                  "example": "any"
-                }
-              }
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          },
-          "404": {
-            "description": "Not Found"
-          },
-          "500": {
-            "description": "Internal Server Error"
-          }
-        }
-      }
-    },
-    "/users/{id}": {
+      },
       "delete": {
+        "tags": [
+          "Users"
+        ],
         "description": "",
         "parameters": [
           {
@@ -168,8 +123,59 @@
         }
       }
     },
-    "/habbies/": {
+    "/users/;id": {
+      "put": {
+        "tags": [
+          "Users"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "date_of_birth": {
+                  "example": "any"
+                },
+                "email": {
+                  "example": "any"
+                },
+                "first_name": {
+                  "example": "any"
+                },
+                "last_name": {
+                  "example": "any"
+                },
+                "password": {
+                  "example": "any"
+                },
+                "phone_number": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/hobbies/": {
       "get": {
+        "tags": [
+          "Hobbies"
+        ],
         "description": "",
         "responses": {
           "200": {
@@ -181,6 +187,9 @@
         }
       },
       "post": {
+        "tags": [
+          "Hobbies"
+        ],
         "description": "",
         "parameters": [
           {
@@ -206,8 +215,11 @@
         }
       }
     },
-    "/habbies/{*id}": {
+    "/hobbies/{*id}": {
       "get": {
+        "tags": [
+          "Hobbies"
+        ],
         "description": "",
         "parameters": [
           {
@@ -230,8 +242,11 @@
         }
       }
     },
-    "/habbies/;id": {
+    "/hobbies/;id": {
       "put": {
+        "tags": [
+          "Hobbies"
+        ],
         "description": "",
         "parameters": [
           {
@@ -260,8 +275,11 @@
         }
       }
     },
-    "/habbies/{id}": {
+    "/hobbies/{id}": {
       "delete": {
+        "tags": [
+          "Hobbies"
+        ],
         "description": "",
         "parameters": [
           {
@@ -286,6 +304,9 @@
     },
     "/favorites/": {
       "get": {
+        "tags": [
+          "Favorites"
+        ],
         "description": "",
         "responses": {
           "200": {
@@ -297,6 +318,9 @@
         }
       },
       "post": {
+        "tags": [
+          "Favorites"
+        ],
         "description": "",
         "parameters": [
           {
@@ -330,6 +354,9 @@
     },
     "/favorites/{*id}": {
       "get": {
+        "tags": [
+          "Favorites"
+        ],
         "description": "",
         "parameters": [
           {
@@ -354,6 +381,9 @@
     },
     "/favorites/;id": {
       "put": {
+        "tags": [
+          "Favorites"
+        ],
         "description": "",
         "parameters": [
           {
@@ -390,6 +420,152 @@
     },
     "/favorites/{id}": {
       "delete": {
+        "tags": [
+          "Favorites"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/skillset/": {
+      "get": {
+        "tags": [
+          "Skills"
+        ],
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Skills"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "example": "any"
+                },
+                "technical_skill": {
+                  "example": "any"
+                },
+                "other_skill": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/skillset/{*id}": {
+      "get": {
+        "tags": [
+          "Skills"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name": "*id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/skillset/;id": {
+      "put": {
+        "tags": [
+          "Skills"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "example": "any"
+                },
+                "technical_skill": {
+                  "example": "any"
+                },
+                "other_skill": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/skillset/{id}": {
+      "delete": {
+        "tags": [
+          "Skills"
+        ],
         "description": "",
         "parameters": [
           {

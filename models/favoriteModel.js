@@ -1,4 +1,4 @@
-const {mongoose} = require("mongoose");
+const mongoose = require("mongoose");
 
 const favoriteSchema = new mongoose.Schema({
     favorite_color: {
