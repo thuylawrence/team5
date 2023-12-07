@@ -1,0 +1,27 @@
+### Get all hobbies
+GET http://localhost:8080/hobbies
+Accept: application/json
+
+### Create hobby
+POST http://localhost:8080/hobbies
+Content-Type: application/json
+
+{
+  "hobby": "Reading"
+}
+
+### Get hobbies by ID
+GET http://localhost:8080/hobbies/657235bf48ee05dd1bfeaf4a
+Accept: application/json
+
+### Update a favorite
+PUT http://localhost:8080/hobbies/657235bf48ee05dd1bfeaf4a
+Content-Type: application/json
+
+{
+  "hobby": "Writing"
+}
+
+### Delete a favorite
+DELETE http://localhost:8080/hobbies/657235bf48ee05dd1bfeaf4a
+Accept: application/json

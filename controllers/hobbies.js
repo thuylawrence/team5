@@ -27,10 +27,10 @@ const getAll = async (req, res) => {
     try {
       const {hobby} = req.body;
   
-      const hobbies = new Hobby({
-        hobbies
+      const hobbies = new Hobbies({
+        hobby
       });
-      const createHobby = await Hobbies.save();
+      const createHobby = await hobbies.save();
 
       res.status(201).json(createHobby);
     } catch (err) {
@@ -47,7 +47,7 @@ const getAll = async (req, res) => {
       }, {new: true});
   
       if (hobby) {
-        const updateHobby = await hobby.save();
+        const updateHobby = await hobbies.save();
         res.json(updateHobby);
       } else {
         res.status(404).json({message: "Hobby not found"})
