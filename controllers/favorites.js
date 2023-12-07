@@ -32,9 +32,9 @@ const getAll = async (req, res) => {
         favorite_food,
         favorite_movie
       });
-      const createFavorite = await Favories.save();
+      const createFavorite = await favorite.save();
 
-      res.status(201).json(createFavories);
+      res.status(201).json(createFavorite);
     } catch (err) {
       res.status(500).json({message: err.message})
     }

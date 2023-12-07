@@ -2,13 +2,12 @@ const mongoose = require("mongoose");
 
 const favoriteSchema = new mongoose.Schema({
     favorite_color: {
-        type: Date,
+        type: String,
         required: true,
     },
     favorite_food: {
         type: String,
         required: true,
-        unique: true,
     },
     favorite_movie: {
         type: String,

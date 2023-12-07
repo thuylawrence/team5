@@ -1,0 +1,31 @@
+### Get all favorites
+GET http://localhost:8080/favorites
+Accept: application/json
+
+### Create favorite
+POST http://localhost:8080/favorites
+Content-Type: application/json
+
+{
+  "favorite_color": "Red",
+  "favorite_food": "Tortillas",
+  "favorite_movie": "Charlie Brown"
+}
+
+### Get favorites by ID
+GET http://localhost:8080/favorites/65723012ede37b551dff046c
+Accept: application/json
+
+### Update a favorite
+PUT http://localhost:8080/favorites/6572310075bbfdd4e9bc70e1
+Content-Type: application/json
+
+{
+  "favorite_color": "Blue",
+  "favorite_food": "Tacosa",
+  "favorite_movie": "Charlie Brown"
+}
+
+### Delete a favorite
+DELETE http://localhost:8080/favorites/6572310075bbfdd4e9bc70e1
+Accept: application/json
