@@ -1,3 +1,233 @@
+GET http://localhost:8080/users/65722e52b8d66171d311a938
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T134445.404.json
+
+###
+
+GET http://localhost:8080/users/65722d9ec4d8aaeefbaceea8
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T134435.200.json
+
+###
+
+DELETE http://localhost:8080/users/65722e52b8d66171d311a938
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T134303.201.json
+
+###
+
+POST http://localhost:8080/users
+Content-Type: application/json
+Content-Length: 182
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "date_of_birth": "08-08-2000",
+  "email": "email4@email.com",
+  "first_name": "firstName",
+  "last_name": "lastName",
+  "password": "password",
+  "phone_number": "555-555-5555"
+}
+
+<> 2023-12-07T134258.201.json
+
+###
+
+GET http://localhost:8080/users/65722d9ec4d8aaeefbaceea8
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T134212.200.json
+
+###
+
+PUT http://localhost:8080/users/65722d9ec4d8aaeefbaceea8
+Content-Type: application/json
+Content-Length: 182
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "date_of_birth": "08-08-2000",
+  "email": "email3@email.com",
+  "first_name": "firstName",
+  "last_name": "lastName",
+  "password": "password",
+  "phone_number": "555-555-5551"
+}
+
+<> 2023-12-07T134204.200.json
+
+###
+
+PUT http://localhost:8080/users/65722d9ec4d8aaeefbaceea8
+Content-Type: application/json
+Content-Length: 182
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "date_of_birth": "08-08-2000",
+  "email": "email3@email.com",
+  "first_name": "firstName",
+  "last_name": "lastName",
+  "password": "password",
+  "phone_number": "555-555-5551"
+}
+
+<> 2023-12-07T134149.404.html
+
+###
+
+GET http://localhost:8080/users
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T134129.200.json
+
+###
+
+GET http://localhost:8080/users/6567520e970acc6c48f4f9b3
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T134019.200.json
+
+###
+
+GET http://localhost:8080/users
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T134012.200.json
+
+###
+
+GET http://localhost:8080/users/65722d9ec4d8aaeefbaceea8
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T134007.200.json
+
+###
+
+POST http://localhost:8080/users
+Content-Type: application/json
+Content-Length: 182
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "date_of_birth": "08-08-2000",
+  "email": "email3@email.com",
+  "first_name": "firstName",
+  "last_name": "lastName",
+  "password": "password",
+  "phone_number": "555-555-5555"
+}
+
+<> 2023-12-07T133958.201.json
+
+###
+
+GET http://localhost:8080/users
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T133941.404.html
+
+###
+
+GET http://localhost:8080/users
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T133832.404.html
+
+###
+
+POST http://localhost:8080/users
+Content-Type: application/json
+Content-Length: 182
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "date_of_birth": "08-08-2000",
+  "email": "email3@email.com",
+  "first_name": "firstName",
+  "last_name": "lastName",
+  "password": "password",
+  "phone_number": "555-555-5555"
+}
+
+<> 2023-12-07T133823.404.html
+
+###
+
+POST http://localhost:8080/users
+Content-Type: application/json
+Content-Length: 182
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "date_of_birth": "08-08-2000",
+  "email": "email2@email.com",
+  "first_name": "firstName",
+  "last_name": "lastName",
+  "password": "password",
+  "phone_number": "555-555-5555"
+}
+
+<> 2023-12-07T133708.500.json
+
+###
+
+GET http://localhost:8080/users
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T133706.200.json
+
+###
+
 POST http://localhost:8080/users
 Content-Type: application/json
 Content-Length: 182

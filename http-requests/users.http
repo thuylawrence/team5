@@ -8,9 +8,30 @@ Content-Type: application/json
 
 {
   "date_of_birth": "08-08-2000",
-  "email": "email2@email.com",
+  "email": "email4@email.com",
   "first_name": "firstName",
   "last_name": "lastName",
   "password": "password",
   "phone_number": "555-555-5555"
 }
+
+### Get user by ID
+GET http://localhost:8080/users/65722e52b8d66171d311a938
+Accept: application/json
+
+### Update a user
+PUT http://localhost:8080/users/65722d9ec4d8aaeefbaceea8
+Content-Type: application/json
+
+{
+  "date_of_birth": "08-08-2000",
+  "email": "email3@email.com",
+  "first_name": "firstName",
+  "last_name": "lastName",
+  "password": "password",
+  "phone_number": "555-555-5551"
+}
+
+### Delete a user
+DELETE http://localhost:8080/users/65722e52b8d66171d311a938
+Accept: application/json
