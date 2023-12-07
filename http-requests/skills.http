@@ -1,0 +1,29 @@
+### Get all skills
+GET http://localhost:8080/skillset
+Accept: application/json
+
+### Create skill
+POST http://localhost:8080/skillset
+Content-Type: application/json
+
+{
+  "technical_skill": "Web development",
+  "other_skill": "Web design"
+}
+
+### Get skill by ID
+GET http://localhost:8080/skillset/657237148ae49e9941dea849
+Accept: application/json
+
+### Update a skill
+PUT http://localhost:8080/skillset/657237148ae49e9941dea849
+Content-Type: application/json
+
+{
+  "technical_skill": "Web fullstack development",
+  "other_skill": "Web design"
+}
+
+### Delete a skill
+DELETE http://localhost:8080/skillset/657237571733cf50867ae2e6
+Accept: application/json

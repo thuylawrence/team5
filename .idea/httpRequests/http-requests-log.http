@@ -1,3 +1,117 @@
+DELETE http://localhost:8080/skillset/657237571733cf50867ae2e6
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T142134.201.json
+
+###
+
+POST http://localhost:8080/skillset
+Content-Type: application/json
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "technical_skill": "Web development",
+  "other_skill": "Web design"
+}
+
+<> 2023-12-07T142127.201.json
+
+###
+
+PUT http://localhost:8080/skillset/657237148ae49e9941dea849
+Content-Type: application/json
+Content-Length: 83
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "technical_skill": "Web fullstack development",
+  "other_skill": "Web design"
+}
+
+<> 2023-12-07T142117.200.json
+
+###
+
+GET http://localhost:8080/skillset/657237148ae49e9941dea849
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T142054.200.json
+
+###
+
+GET http://localhost:8080/skillset/657237148ae49e9941dea849
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T142034.404.html
+
+###
+
+POST http://localhost:8080/skillset
+Content-Type: application/json
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "technical_skill": "Web development",
+  "other_skill": "Web design"
+}
+
+<> 2023-12-07T142020.201.json
+
+###
+
+POST http://localhost:8080/skillset
+Content-Type: application/json
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "technical_skill": "Web development",
+  "other_skill": "Web design"
+}
+
+<> 2023-12-07T141952.500.json
+
+###
+
+GET http://localhost:8080/skillset
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T141921.200.json
+
+###
+
+GET http://localhost:8080/skillset
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T141754.200.json
+
+###
+
 DELETE http://localhost:8080/hobbies/657235bf48ee05dd1bfeaf4a
 Accept: application/json
 Connection: Keep-Alive
@@ -583,126 +697,6 @@ User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 <> 2023-12-07T134129.200.json
-
-###
-
-GET http://localhost:8080/users/6567520e970acc6c48f4f9b3
-Accept: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-07T134019.200.json
-
-###
-
-GET http://localhost:8080/users
-Accept: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-07T134012.200.json
-
-###
-
-GET http://localhost:8080/users/65722d9ec4d8aaeefbaceea8
-Accept: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-07T134007.200.json
-
-###
-
-POST http://localhost:8080/users
-Content-Type: application/json
-Content-Length: 182
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "date_of_birth": "08-08-2000",
-  "email": "email3@email.com",
-  "first_name": "firstName",
-  "last_name": "lastName",
-  "password": "password",
-  "phone_number": "555-555-5555"
-}
-
-<> 2023-12-07T133958.201.json
-
-###
-
-GET http://localhost:8080/users
-Accept: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-07T133941.404.html
-
-###
-
-GET http://localhost:8080/users
-Accept: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-07T133832.404.html
-
-###
-
-POST http://localhost:8080/users
-Content-Type: application/json
-Content-Length: 182
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "date_of_birth": "08-08-2000",
-  "email": "email3@email.com",
-  "first_name": "firstName",
-  "last_name": "lastName",
-  "password": "password",
-  "phone_number": "555-555-5555"
-}
-
-<> 2023-12-07T133823.404.html
-
-###
-
-POST http://localhost:8080/users
-Content-Type: application/json
-Content-Length: 182
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "date_of_birth": "08-08-2000",
-  "email": "email2@email.com",
-  "first_name": "firstName",
-  "last_name": "lastName",
-  "password": "password",
-  "phone_number": "555-555-5555"
-}
-
-<> 2023-12-07T133708.500.json
-
-###
-
-GET http://localhost:8080/users
-Accept: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-07T133706.200.json
 
 ###
 

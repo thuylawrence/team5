@@ -1,11 +1,6 @@
 const mongoose = require("mongoose");
 
 const skillsetSchema = new mongoose.Schema({
-    id: {
-        type: Number,
-        required: true,
-        unique: true,
-    },
     technical_skill: {
         type: String,
         required: true,
