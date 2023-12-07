@@ -5,10 +5,9 @@
     "description": "This api gets users info",
     "version": "1.0.0"
   },
-  "host": "localhost:8080",
+  "host": "cse340teamproject.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http",
     "https"
   ],
   "paths": {
