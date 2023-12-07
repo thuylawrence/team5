@@ -6,7 +6,8 @@ const doc = {
         description: "This api gets users info",
     },
     host: "cse340teamproject.onrender.com",
-    schemes: ["https"],
+    // host: "localhost:8080",
+    schemes: ["https", "http"],
 };
 
 const outputFile = "./swagger.json";
