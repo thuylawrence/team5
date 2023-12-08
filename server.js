@@ -3,6 +3,7 @@ const dotenv = require("dotenv");
 const {connectDB} = require("./database/db");
 const swaggerUi = require("swagger-ui-express");
 const swaggerDocument = require("./swagger.json");
+const cors = require('cors');
 
 dotenv.config();
 const app = express();
@@ -14,6 +15,9 @@ connectDB();
 // Express middleware
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
+
+//Third party middleware
+app.use(cors());
 
 // Swagger middleware
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
