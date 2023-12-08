@@ -8,6 +8,7 @@
   "host": "cse340teamproject.onrender.com",
   "basePath": "/",
   "schemes": [
+    "http",
     "https"
   ],
   "paths": {
@@ -96,7 +97,7 @@
           }
         }
       },
-      "delete": {
+      "put": {
         "tags": [
           "Users"
         ],
@@ -107,28 +108,7 @@
             "in": "path",
             "required": true,
             "type": "string"
-          }
-        ],
-        "responses": {
-          "201": {
-            "description": "Created"
           },
-          "404": {
-            "description": "Not Found"
-          },
-          "500": {
-            "description": "Internal Server Error"
-          }
-        }
-      }
-    },
-    "/users/;id": {
-      "put": {
-        "tags": [
-          "Users"
-        ],
-        "description": "",
-        "parameters": [
           {
             "name": "body",
             "in": "body",
@@ -160,6 +140,31 @@
         "responses": {
           "200": {
             "description": "OK"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Users"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
           },
           "404": {
             "description": "Not Found"
@@ -241,13 +246,19 @@
         }
       }
     },
-    "/hobbies/;id": {
+    "/hobbies/{id}": {
       "put": {
         "tags": [
           "Hobbies"
         ],
         "description": "",
         "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
           {
             "name": "body",
             "in": "body",
@@ -272,9 +283,7 @@
             "description": "Internal Server Error"
           }
         }
-      }
-    },
-    "/hobbies/{id}": {
+      },
       "delete": {
         "tags": [
           "Hobbies"
@@ -378,13 +387,19 @@
         }
       }
     },
-    "/favorites/;id": {
+    "/favorites/{id}": {
       "put": {
         "tags": [
           "Favorites"
         ],
         "description": "",
         "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
           {
             "name": "body",
             "in": "body",
@@ -415,9 +430,7 @@
             "description": "Internal Server Error"
           }
         }
-      }
-    },
-    "/favorites/{id}": {
+      },
       "delete": {
         "tags": [
           "Favorites"
@@ -521,13 +534,19 @@
         }
       }
     },
-    "/skillset/;id": {
+    "/skillset/{id}": {
       "put": {
         "tags": [
           "Skills"
         ],
         "description": "",
         "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
           {
             "name": "body",
             "in": "body",
@@ -558,9 +577,7 @@
             "description": "Internal Server Error"
           }
         }
-      }
-    },
-    "/skillset/{id}": {
+      },
       "delete": {
         "tags": [
           "Skills"
