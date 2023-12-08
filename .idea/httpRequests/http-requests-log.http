@@ -1,3 +1,625 @@
+DELETE http://localhost:8080/skillset/657237571733cf50867ae2e6
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T142134.201.json
+
+###
+
+POST http://localhost:8080/skillset
+Content-Type: application/json
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "technical_skill": "Web development",
+  "other_skill": "Web design"
+}
+
+<> 2023-12-07T142127.201.json
+
+###
+
+PUT http://localhost:8080/skillset/657237148ae49e9941dea849
+Content-Type: application/json
+Content-Length: 83
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "technical_skill": "Web fullstack development",
+  "other_skill": "Web design"
+}
+
+<> 2023-12-07T142117.200.json
+
+###
+
+GET http://localhost:8080/skillset/657237148ae49e9941dea849
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T142054.200.json
+
+###
+
+GET http://localhost:8080/skillset/657237148ae49e9941dea849
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T142034.404.html
+
+###
+
+POST http://localhost:8080/skillset
+Content-Type: application/json
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "technical_skill": "Web development",
+  "other_skill": "Web design"
+}
+
+<> 2023-12-07T142020.201.json
+
+###
+
+POST http://localhost:8080/skillset
+Content-Type: application/json
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "technical_skill": "Web development",
+  "other_skill": "Web design"
+}
+
+<> 2023-12-07T141952.500.json
+
+###
+
+GET http://localhost:8080/skillset
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T141921.200.json
+
+###
+
+GET http://localhost:8080/skillset
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T141754.200.json
+
+###
+
+DELETE http://localhost:8080/hobbies/657235bf48ee05dd1bfeaf4a
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T141606.201.json
+
+###
+
+GET http://localhost:8080/hobbies/657235bf48ee05dd1bfeaf4a
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T141601.200.json
+
+###
+
+PUT http://localhost:8080/hobbies/657235bf48ee05dd1bfeaf4a
+Content-Type: application/json
+Content-Length: 24
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "hobby": "Writing"
+}
+
+<> 2023-12-07T141554.200.json
+
+###
+
+PUT http://localhost:8080/hobbies/657235bf48ee05dd1bfeaf4a
+Content-Type: application/json
+Content-Length: 24
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "hobby": "Writing"
+}
+
+<> 2023-12-07T141513.500.json
+
+###
+
+GET http://localhost:8080/hobbies/657235bf48ee05dd1bfeaf4a
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T141501.200.json
+
+###
+
+POST http://localhost:8080/hobbies
+Content-Type: application/json
+Content-Length: 24
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "hobby": "Reading"
+}
+
+<> 2023-12-07T141440.201.json
+
+###
+
+POST http://localhost:8080/hobbies
+Content-Type: application/json
+Content-Length: 24
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "hobby": "Reading"
+}
+
+<> 2023-12-07T141239.500.json
+
+###
+
+POST http://localhost:8080/hobbies
+Content-Type: application/json
+Content-Length: 24
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "hobby": "Reading"
+}
+
+<> 2023-12-07T141200.500.json
+
+###
+
+POST http://localhost:8080/hobbies
+Content-Type: application/json
+Content-Length: 24
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "hobby": "Reading"
+}
+
+<> 2023-12-07T141148.500.json
+
+###
+
+GET http://localhost:8080/hobbies
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T141129.200.json
+
+###
+
+GET http://localhost:8080/favorites/65723012ede37b551dff046c
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T141003.200.json
+
+###
+
+POST http://localhost:8080/favorites
+Content-Type: application/json
+Content-Length: 98
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "favorite_color": "Red",
+  "favorite_food": "Tortillas",
+  "favorite_movie": "Charlie Brown"
+}
+
+<> 2023-12-07T140338.500.json
+
+###
+
+POST http://localhost:8080/favorites
+Content-Type: application/json
+Content-Length: 98
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "favorite_color": "Red",
+  "favorite_food": "Tortillas",
+  "favorite_movie": "Charlie Brown"
+}
+
+<> 2023-12-07T140337.500.json
+
+###
+
+POST http://localhost:8080/favorites
+Content-Type: application/json
+Content-Length: 98
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "favorite_color": "Red",
+  "favorite_food": "Tortillas",
+  "favorite_movie": "Charlie Brown"
+}
+
+<> 2023-12-07T140019.500.json
+
+###
+
+POST http://localhost:8080/favorites
+Content-Type: application/json
+Content-Length: 98
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "favorite_color": "Red",
+  "favorite_food": "Tortillas",
+  "favorite_movie": "Charlie Brown"
+}
+
+<> 2023-12-07T135616.500.json
+
+###
+
+POST http://localhost:8080/favorites
+Content-Type: application/json
+Content-Length: 98
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "favorite_color": "Red",
+  "favorite_food": "Tortillas",
+  "favorite_movie": "Charlie Brown"
+}
+
+<> 2023-12-07T135613.201.json
+
+###
+
+DELETE http://localhost:8080/favorites/6572310075bbfdd4e9bc70e1
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T135450.201.json
+
+###
+
+PUT http://localhost:8080/favorites/6572310075bbfdd4e9bc70e1
+Content-Type: application/json
+Content-Length: 96
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "favorite_color": "Blue",
+  "favorite_food": "Tacosa",
+  "favorite_movie": "Charlie Brown"
+}
+
+<> 2023-12-07T135443.200.json
+
+###
+
+PUT http://localhost:8080/favorites/6572310075bbfdd4e9bc70e1
+Content-Type: application/json
+Content-Length: 95
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "favorite_color": "Blue",
+  "favorite_food": "Tacos",
+  "favorite_movie": "Charlie Brown"
+}
+
+<> 2023-12-07T135435.500.json
+
+###
+
+POST http://localhost:8080/favorites
+Content-Type: application/json
+Content-Length: 98
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "favorite_color": "Red",
+  "favorite_food": "Tortillas",
+  "favorite_movie": "Charlie Brown"
+}
+
+<> 2023-12-07T135424.201.json
+
+###
+
+POST http://localhost:8080/favorites
+Content-Type: application/json
+Content-Length: 94
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "favorite_color": "Red",
+  "favorite_food": "Tacos",
+  "favorite_movie": "Charlie Brown"
+}
+
+<> 2023-12-07T135319.500.json
+
+###
+
+POST http://localhost:8080/favorites
+Content-Type: application/json
+Content-Length: 94
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "favorite_color": "Red",
+  "favorite_food": "Tacos",
+  "favorite_movie": "Charlie Brown"
+}
+
+<> 2023-12-07T135304.500.json
+
+###
+
+POST http://localhost:8080/favorites
+Content-Type: application/json
+Content-Length: 94
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "favorite_color": "Red",
+  "favorite_food": "Tacos",
+  "favorite_movie": "Charlie Brown"
+}
+
+<> 2023-12-07T135247.500.json
+
+###
+
+POST http://localhost:8080/favorites
+Content-Type: application/json
+Content-Length: 94
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "favorite_color": "Red",
+  "favorite_food": "Tacos",
+  "favorite_movie": "Charlie Brown"
+}
+
+<> 2023-12-07T135146.500.json
+
+###
+
+PUT http://localhost:8080/favorites/65723012ede37b551dff046c
+Content-Type: application/json
+Content-Length: 95
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "favorite_color": "Blue",
+  "favorite_food": "Tacos",
+  "favorite_movie": "Charlie Brown"
+}
+
+<> 2023-12-07T135124.200.json
+
+###
+
+GET http://localhost:8080/favorites/65723012ede37b551dff046c
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T135100.200.json
+
+###
+
+POST http://localhost:8080/favorites
+Content-Type: application/json
+Content-Length: 94
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "favorite_color": "Red",
+  "favorite_food": "Tacos",
+  "favorite_movie": "Charlie Brown"
+}
+
+<> 2023-12-07T135026.201.json
+
+###
+
+POST http://localhost:8080/favorites
+Content-Type: application/json
+Content-Length: 94
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "favorite_color": "Red",
+  "favorite_food": "Tacos",
+  "favorite_movie": "Charlie Brown"
+}
+
+<> 2023-12-07T134953.500.json
+
+###
+
+GET http://localhost:8080/favorites
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T134928.200.json
+
+###
+
+GET http://localhost:8080/favorites
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T134839.200.json
+
+###
+
+POST http://localhost:8080/favorites
+Content-Type: application/json
+Content-Length: 94
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "favorite_color": "Red",
+  "favorite_food": "Tacos",
+  "favorite_movie": "Charlie Brown"
+}
+
+<> 2023-12-07T134807.500.json
+
+###
+
+POST http://localhost:8080/favorites
+Content-Type: application/json
+Content-Length: 67
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "favorite_food": "Tacos",
+  "favorite_movie": "Charlie Brown"
+}
+
+<> 2023-12-07T134722.500.json
+
+###
+
+GET http://localhost:8080/favorites
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T134602.200.json
+
+###
+
+GET http://localhost:8080/users/65722e52b8d66171d311a938
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T134445.404.json
+
+###
+
+GET http://localhost:8080/users/65722d9ec4d8aaeefbaceea8
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T134435.200.json
+
+###
+
+DELETE http://localhost:8080/users/65722e52b8d66171d311a938
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T134303.201.json
+
+###
+
 POST http://localhost:8080/users
 Content-Type: application/json
 Content-Length: 182
@@ -7,14 +629,64 @@ Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
   "date_of_birth": "08-08-2000",
-  "email": "email2@email.com",
+  "email": "email4@email.com",
   "first_name": "firstName",
   "last_name": "lastName",
   "password": "password",
   "phone_number": "555-555-5555"
 }
 
-<> 2023-12-05T202328.201.json
+<> 2023-12-07T134258.201.json
+
+###
+
+GET http://localhost:8080/users/65722d9ec4d8aaeefbaceea8
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-07T134212.200.json
+
+###
+
+PUT http://localhost:8080/users/65722d9ec4d8aaeefbaceea8
+Content-Type: application/json
+Content-Length: 182
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "date_of_birth": "08-08-2000",
+  "email": "email3@email.com",
+  "first_name": "firstName",
+  "last_name": "lastName",
+  "password": "password",
+  "phone_number": "555-555-5551"
+}
+
+<> 2023-12-07T134204.200.json
+
+###
+
+PUT http://localhost:8080/users/65722d9ec4d8aaeefbaceea8
+Content-Type: application/json
+Content-Length: 182
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "date_of_birth": "08-08-2000",
+  "email": "email3@email.com",
+  "first_name": "firstName",
+  "last_name": "lastName",
+  "password": "password",
+  "phone_number": "555-555-5551"
+}
+
+<> 2023-12-07T134149.404.html
 
 ###
 
@@ -24,212 +696,7 @@ Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-12-05T202319.200.json
-
-###
-
-POST http://localhost:8080/users
-Content-Type: application/json
-Content-Length: 181
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "date_of_birth": "08-08-2000",
-  "email": "email@email.com",
-  "first_name": "firstName",
-  "last_name": "lastName",
-  "password": "password",
-  "phone_number": "555-555-5555"
-}
-
-<> 2023-12-05T201724.201.json
-
-###
-
-GET http://localhost:8080/users
-Accept: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-05T201346.200.json
-
-###
-
-POST http://localhost:8080/users
-Content-Type: application/json
-Content-Length: 171
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "date_of_birth": "08-08-2000",
-  "email": "email",
-  "first_name": "firstName",
-  "last_name": "lastName",
-  "password": "password",
-  "phone_number": "555-555-5555"
-}
-
-<> 2023-12-05T201325.500.json
-
-###
-
-GET http://localhost:8080/users
-Accept: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-05T201319.200.json
-
-###
-
-POST http://localhost:8080/users
-Content-Type: application/json
-Content-Length: 171
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "date_of_birth": "08-08-2000",
-  "email": "email",
-  "first_name": "firstName",
-  "last_name": "lastName",
-  "password": "password",
-  "phone_number": "555-555-5555"
-}
-
-<> 2023-12-05T201216.500.json
-
-###
-
-POST http://localhost:8080/users
-Content-Type: application/json
-Content-Length: 171
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "date_of_birth": "08-08-2000",
-  "email": "email",
-  "first_name": "firstName",
-  "last_name": "lastName",
-  "password": "password",
-  "phone_number": "555-555-5555"
-}
-
-<> 2023-12-05T201019.500.json
-
-###
-
-POST http://localhost:8080/users
-Content-Type: application/json
-Content-Length: 171
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "date_of_birth": "08-08-2000",
-  "email": "email",
-  "first_name": "firstName",
-  "last_name": "lastName",
-  "password": "password",
-  "phone_number": "555-555-5555"
-}
-
-<> 2023-12-05T200828.201.json
-
-###
-
-POST http://localhost:8080/users
-Content-Type: application/json
-Content-Length: 171
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "date_of_birth": "08-08-2000",
-  "email": "email",
-  "first_name": "firstName",
-  "last_name": "lastName",
-  "password": "password",
-  "phone_number": "555-555-5555"
-}
-
-<> 2023-12-05T200747.500.json
-
-###
-
-GET http://localhost:8080/users
-Accept: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-05T200353.200.json
-
-###
-
-GET http://localhost:8080/users
-Accept: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-05T200120.200.json
-
-###
-
-GET http://localhost:8080/users
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-05T195837.200.json
-
-###
-
-GET http://localhost:8080/users/
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-05T195752.200.json
-
-###
-
-GET http://localhost:8080/users/
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-05T194858.200.json
-
-###
-
-GET http://localhost:8080/users/
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-05T194853.200.json
-
-###
-
-GET http://localhost:8080/users/
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-05T194741.200.json
+<> 2023-12-07T134129.200.json
 
 ###
 

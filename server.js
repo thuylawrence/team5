@@ -26,4 +26,5 @@ app.use("/", require("./routes/index"));
 
 app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
+    console.log(`Swagger: http://localhost:${PORT}/api-docs`);
 });

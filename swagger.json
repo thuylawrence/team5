@@ -5,7 +5,7 @@
     "description": "This api gets users info",
     "version": "1.0.0"
   },
-  "host": "cse340teamproject.onrender.com",
+  "host": "localhost:8080",
   "basePath": "/",
   "schemes": [
     "http",
@@ -219,7 +219,7 @@
         }
       }
     },
-    "/hobbies/{*id}": {
+    "/hobbies/{id}": {
       "get": {
         "tags": [
           "Hobbies"
@@ -227,7 +227,7 @@
         "description": "",
         "parameters": [
           {
-            "name": "*id",
+            "name": "id",
             "in": "path",
             "required": true,
             "type": "string"
@@ -360,7 +360,7 @@
         }
       }
     },
-    "/favorites/{*id}": {
+    "/favorites/{id}": {
       "get": {
         "tags": [
           "Favorites"
@@ -368,7 +368,7 @@
         "description": "",
         "parameters": [
           {
-            "name": "*id",
+            "name": "id",
             "in": "path",
             "required": true,
             "type": "string"
@@ -507,7 +507,7 @@
         }
       }
     },
-    "/skillset/{*id}": {
+    "/skillset/{id}": {
       "get": {
         "tags": [
           "Skills"
@@ -515,7 +515,7 @@
         "description": "",
         "parameters": [
           {
-            "name": "*id",
+            "name": "id",
             "in": "path",
             "required": true,
             "type": "string"
