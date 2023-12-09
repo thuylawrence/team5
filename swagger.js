@@ -5,8 +5,8 @@ const doc = {
         title: "Users Info API",
         description: "This api gets users info",
     },
-    host: "cse340teamproject.onrender.com",
-    // host: "localhost:8080",
+    //host: "cse340teamproject.onrender.com",
+    host: "localhost:8080",
     schemes: ["http", "https"],
 };
 
